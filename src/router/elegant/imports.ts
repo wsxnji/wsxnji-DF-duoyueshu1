@@ -36,6 +36,7 @@ export const views: Record<LastLevelRouteKey, RouteComponent | (() => Promise<Ro
   manage_menu: () => import("@/views/manage/menu/index.vue"),
   manage_role: () => import("@/views/manage/role/index.vue"),
   "manage_user-detail": () => import("@/views/manage/user-detail/[id].vue"),
+  "manage_user-profile": () => import("@/views/manage/user-profile/index.vue"),
   manage_user: () => import("@/views/manage/user/index.vue"),
   "multi-menu_first_child": () => import("@/views/multi-menu/first_child/index.vue"),
   "multi-menu_second_child_home": () => import("@/views/multi-menu/second_child_home/index.vue"),

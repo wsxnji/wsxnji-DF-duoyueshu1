@@ -191,6 +191,7 @@ const local: App.I18n.Schema = {
     manage: '系统管理',
     manage_user: '用户管理',
     'manage_user-detail': '用户详情',
+    'manage_user-profile': '用户画像',
     manage_role: '角色管理',
     manage_menu: '菜单管理',
     'multi-menu': '多级菜单',
@@ -414,6 +415,7 @@ const local: App.I18n.Schema = {
         },
         addUser: '新增用户',
         editUser: '编辑用户',
+        userProfile: '用户画像',
         gender: {
           male: '男',
           female: '女'

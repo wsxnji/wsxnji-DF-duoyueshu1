@@ -310,6 +310,18 @@ export const generatedRoutes: GeneratedRoute[] = [
           roles: ['R_ADMIN'],
           activeMenu: 'manage_user'
         }
+      },
+      {
+        name: 'manage_user-profile',
+        path: '/manage/user-profile',
+        component: 'view.manage_user-profile',
+        meta: {
+          title: 'manage_user-profile',
+          i18nKey: 'route.manage_user-profile',
+          icon: 'carbon:user-avatar',
+          order: 2,
+          roles: ['R_ADMIN']
+        }
       }
     ]
   },

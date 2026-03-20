@@ -600,6 +600,7 @@ declare namespace App {
             };
             addUser: string;
             editUser: string;
+            userProfile: string;
             gender: {
               male: string;
               female: string;
